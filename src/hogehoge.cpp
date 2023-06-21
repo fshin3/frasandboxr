@@ -12,12 +12,12 @@ using namespace Rcpp;
 //
 
 //' 数値を2倍にする
-//' @param x 1つの整数
+//' @param y 1つの整数
 //' @RcppExports
 //'
 // [[Rcpp::export]]
-int timesTwo(int x) {
-  return x * 2;
+int timesTwo(int y) {
+  return y * 2;
 }
 //　[Rcpp::interfaces(r, cpp)]]
 
