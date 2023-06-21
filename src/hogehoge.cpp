@@ -16,8 +16,8 @@ using namespace Rcpp;
 //' @RcppExports
 //'
 // [[Rcpp::export]]
-int timesTwo(int y) {
-  return y * 2;
+int timesTwo(int z) {
+  return z * 2;
 }
 //　[Rcpp::interfaces(r, cpp)]]
 
