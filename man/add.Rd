@@ -13,11 +13,9 @@ add(x, y)
 }
 \value{
 数値のvector.
+add(1, 1)
+add(10, 1)
 }
 \description{
 数値を加算する
-}
-\examples{
-add(1, 1)
-add(10, 1)
 }
