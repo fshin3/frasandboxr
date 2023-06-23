@@ -20,3 +20,14 @@ add <- function(x, y) {
 add10 <- function(x){
   return(x + 1:10)
 }
+
+#' 20足す
+#'
+#' @param x 入力する数値
+#'
+#' @return 2s0の数値ベクトル
+#' @export
+#'
+add20 <- function(x){
+  return(x + 1:20)
+}
